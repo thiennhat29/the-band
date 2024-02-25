@@ -164,6 +164,9 @@ html {
     margin: 0 auto;
     padding: 32px 0;
 }
+.members .video {
+    width: 100%;
+}
 
 .content .member-img {
     padding-top: 15px;
