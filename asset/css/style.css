@@ -144,6 +144,17 @@ html {
     /* display: none; */
     animation: sliderAnimation 9s linear 6s infinite;
 }
+@keyframes sliderAnimation {
+    0% {
+        display: block !important;
+        visibility: visible;
+    }
+    33% {
+        display: none !important;
+        visibility: hidden;
+    }
+}
+
 .slider .text-slider {
     position: absolute;
     bottom: 5%;
@@ -422,16 +433,6 @@ footer.modal-footer {
     to {
         opacity: 1;
         transform: translateX(0px);
-    }
-}
-@keyframes sliderAnimation {
-    0% {
-        display: block !important;
-        visibility: visible;
-    }
-    33% {
-        display: none !important;
-        visibility: hidden;
     }
 }
 
